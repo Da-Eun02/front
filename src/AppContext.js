@@ -11,7 +11,7 @@ const AppContext = createContext({
     this.user = user;
   },
   setAccessFunction: function (accessToken) {
-    this.accessToken = accessToken;
+    this.accessToken = accessToken; 
   },
   setRole: function (role) {
     this.role = role;
